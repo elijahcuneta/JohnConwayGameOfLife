@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5df931bdc07795b45ba30dd136050ab0, type: 3}
+  m_Name: GameModel - 1
+  m_EditorClassIdentifier: 
+  _cell: {fileID: 1984824429492646371, guid: a5bd947c94d05414d91e6c78d3e06d1c, type: 3}
+  inputWidth: 20
+  inputHeight: 20
+  speed: 0.1
+  fillScreenCell: 1
+  spawnRandomAtStart: 0
+  aliveCell: {r: 0, g: 0, b: 0, a: 1}
+  deadCell: {r: 0.21076608, g: 1, b: 0, a: 1}
+  highlightCell: {r: 1, g: 0.9600028, b: 0, a: 1}
+  neighborHighlightCell: {r: 0, g: 0.4576769, b: 1, a: 1}
+  CellCount: 494
+  CellSpawned: 6767
+  CellDied: 7790
+  GridWidth: 64
+  GridHeight: 48
+  ScreenWidth: 1024
+  ScreenHeight: 768
+  Steps: 25
